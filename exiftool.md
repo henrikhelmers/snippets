@@ -20,7 +20,9 @@ When the color space is anything else, include the appropriate ICC profile and s
 
 
 ## Show all QuickTime data
-`exiftool -a -s -G1 -time:all`
+```
+exiftool -a -s -G1 -time:all
+```
 
 
 ## Set all time fields

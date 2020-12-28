@@ -2,10 +2,18 @@
 
 
 ## Cleanup
-`brew cleanup --prune all (or days)`
+```
+brew cleanup --prune all (or days)
+```
+
 
 ## Dependency tree
-`brew deps --tree --installed`
+```
+brew deps --tree --installed
+```
+
 
 ## Show leaf nodes
-`brew leaves | xargs brew deps --installed --for-each | sed "s/^.*:/$(tput setaf 4)&$(tput sgr0)/"`
+```
+brew leaves | xargs brew deps --installed --for-each | sed "s/^.*:/$(tput setaf 4)&$(tput sgr0)/"
+```

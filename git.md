@@ -3,7 +3,9 @@
 
 ## Cherry pick range of commits
 Without `^` the starting commit will be omitted.
-`git cherry-pick START^..END`
+```
+git cherry-pick START^..END
+```
 
 
 ## Make Nova the default editor
@@ -15,4 +17,6 @@ git config --global merge.tool nova
 ```
 
 ## Branch by commit date
-`git branch --sort=committerdate | tail`
+```
+git branch --sort=committerdate | tail
+```
